@@ -1,0 +1,49 @@
+body {
+	border: 15px solid #bdc3c7;
+	width: 40%;
+	max-width: 700px;
+	height: 100%;
+	padding: 20px;
+	float: center;
+	margin: 20px auto;
+	margin-bottom: 20px;
+	font-family:'Source Sans Pro', sans-serif;
+
+	
+}
+
+div  {
+	margin: auto;
+	
+}
+
+.date {
+	text-transform: uppercase;
+	color: #3498db;
+	letter-spacing:0.2rem;
+
+
+}
+
+.post {
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-family: 'Coda Caption', sans-serif;
+	color: #2c3e50;
+	font-size: 2.0rem;
+}
+
+.quote {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+

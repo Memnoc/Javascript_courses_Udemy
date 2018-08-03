@@ -1,0 +1,19 @@
+h1 {
+	color: rgbA(0,200,100,0.2);
+/*	border-width: 5px;
+	border-color: purple;
+	border-style: solid;
+*/
+border: 5px dashed purple;
+}
+
+h4 {
+	background: rgb(255,100,80);
+}
+
+body {
+	background: pink;
+/*	background: url(https://media.istockphoto.com/photos/wood-grain-picture-id519791192?k=6&m=519791192&s=612x612&w=0&h=k6Cd38mlWhTumN77fFhlAxgG-fPReirkelTeS8tTwAk=);
+	background-repeat: no-repeat;
+	background-size: cover;*/
+}
