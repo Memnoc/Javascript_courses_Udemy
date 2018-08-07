@@ -66,3 +66,25 @@ function sumArray(arr){
 }
 sumArray(myArray7);
 
+// max()
+// Write a function max() that accepts an array of numbers 
+// and returns the maximum number in the array
+
+console.log("****************---max()---*************************")
+
+let myArray8 = [22, 76, 81, 9, 7, 54, 33];
+let maxElement = -1;
+let maxIndex = -1;
+
+function max(array) {
+    for(let i = 0; i < array.length; i++) {
+        if(array[i] > maxElement){
+            maxElement = array[i];
+            maxIndex = i;
+        }
+    }
+    console.log("The largest number is " + maxElement + " and the index is " + maxIndex);
+
+}
+
+max(myArray8);
