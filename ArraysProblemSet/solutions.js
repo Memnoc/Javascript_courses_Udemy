@@ -27,7 +27,7 @@ console.log("****************---end---*************************")
 // Write a function isUniform() which takes an array as an argument 
 //and returns true if all elements in the array are identical
 
-console.log("****************---printUniform---*************************")
+console.log("****************---isUniform---*************************")
 
 let myArray2 = [1, 1, 1, 1];
 let myArray3 = [2, 1, 1, 1];
