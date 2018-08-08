@@ -21,6 +21,7 @@ function printReverse2(arr) {
 printReverse(myArray);
 printReverse2(myArray);
 
+
 console.log("****************---end---*************************")
 
 // isUniform()
@@ -36,16 +37,18 @@ let myArray5 = ["b", "a", "a", "c"];
 
 
 function isUniform(arr) {
-    for (let i = 0; i < arr.length; i++) {
-        let output = arr[i];
-        if(output === arr[i + 1]){
-            return true;
+    let first = arr[0];
+    for(let i = 1; i < arr.length; i++){
+        if(arr[i] !== first){
+            return false;
         }
-        return false;
     }
+    return true;
 }
 isUniform(myArray2);
 isUniform(myArray3);
+isUniform(myArray4);
+isUniform(myArray5);
 
 console.log("****************---end---*************************")
 
