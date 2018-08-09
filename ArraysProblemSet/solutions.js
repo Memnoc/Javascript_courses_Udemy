@@ -38,8 +38,8 @@ let myArray5 = ["b", "a", "a", "c"];
 
 function isUniform(arr) {
     let first = arr[0];
-    for(let i = 1; i < arr.length; i++){
-        if(arr[i] !== first){
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] !== first) {
             return false;
         }
     }
@@ -58,14 +58,14 @@ console.log("****************---end---*************************")
 
 console.log("****************---sumArray---*************************")
 
-let myArray7 = [5,6,7,3,2,1];
+let myArray7 = [5, 6, 7, 3, 2, 1];
 
-function sumArray(arr){
+function sumArray(arr) {
     let sum = 0;
-    arr.forEach(function(counter){
-        sum = sum += counter;
+    arr.forEach(function (counter) {
+        sum += counter;
     })
-    console.log(sum)
+    return sum;
 }
 sumArray(myArray7);
 
@@ -76,18 +76,16 @@ sumArray(myArray7);
 console.log("****************---max()---*************************")
 
 let myArray8 = [22, 76, 81, 9, 7, 54, 33];
-let maxElement = -1;
-let maxIndex = -1;
+
 
 function max(array) {
-    for(let i = 0; i < array.length; i++) {
-        if(array[i] > maxElement){
-            maxElement = array[i];
-            maxIndex = i;
+    let maxElement = array[1];
+    for (let i = 1; i < array.length; i++) {
+        if (array[i] > maxElement) {
+            maxElement = array[i];
         }
     }
-    console.log("The largest number is " + maxElement + " and the index is " + maxIndex);
-
+    return maxElement;
 }
 
 max(myArray8);
