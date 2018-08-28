@@ -1,0 +1,11 @@
+We are talking about ways to select a nd manipulate portions of the DOM
+
+The followiong methods are called "selector":
+
+document.getElementById()
+document.getElementByClassName()
+document.getElementByTagName()
+
+// These are more powerfle and newer compared to the above
+document.querySelector()
+document.querySelectorAll()
