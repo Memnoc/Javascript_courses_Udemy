@@ -68,7 +68,7 @@ div p {
 /*Make only inputs with type 'text' have a gray background*/
 
 input[type=text] {
-	background-color: : grey;
+	background-color: grey;
 }
 
 
