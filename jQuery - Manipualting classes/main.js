@@ -1,24 +1,23 @@
-// Adding a class
-$('h1').addClass("correct");
+// Adding a click listener to an h1
+$("h1").click(function(){
+    alert("H1, clciked!");
+});
 
-// Removing a class
-$('h1').removeClass("correct");
+// Adding a click listener to a button
+$("button").click(function(){
+    alert("button clicked!")
+});
 
-// Add class to a collection
-$("li").addClass("wrong");
+// Making the button change background with the equivalent of "this" for jQuery
+$("button").click(function(){
+    $(this).css("background", "green");
+});
 
-// Remove class to a collection
-$("li").removeClass("wrong");
+// Getting text out of the button clicked
+$("button").click(function(){
+    var text = $(this).text();
+    console.log("You clicked " + text);
+});
 
 
-// Toggle class to a collection
-// Toggle will add a class if not present, and remove it if it is
-$("li").toggleClass("correct");
 
-
-// Doing it for a single option, the first one
-$("li").first().toggleClass("done");
-
-// Doing it for all the elements
-// As expected, it removes the first option, and apply the style to the remaining ones
-$("li").toggleClass("done");
