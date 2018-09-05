@@ -14,5 +14,11 @@ $('img:first').attr("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9
 $("img").last().attr("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM3Ai2LAZurR0Oyho4tgLhnt74n2EhrnlQXirn9H7dbuiZM_WL");
 
 // Update all 3 images
-
 $("img").attr("src", "https://www.vwt.org.uk/wp-content/uploads/2015/03/Pine-marten-BANNER.jpg");
+
+// val() method
+// Can act like a getter
+$("input").val();
+
+// Can act like a setter
+$("input").val("Some text from val();");
