@@ -11,6 +11,7 @@ $("ul").on("click", "span", function(event){
         event.stopPropagation();
     });
 
+    // Detect a keypress
     $("input[type='text']").keypress(function(event){
         if(event.which === 13) {
             // Grabbing new todo text from input
