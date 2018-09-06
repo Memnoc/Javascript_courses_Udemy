@@ -22,3 +22,8 @@ $("ul").on("click", "span", function(event){
         }
         
     });
+
+    // Toggle the form clicking the + button
+    $(".fa-plus").click(function(){
+        $("input[type='text']").fadeToggle();
+    })
