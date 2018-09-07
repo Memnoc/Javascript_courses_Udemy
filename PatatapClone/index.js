@@ -172,9 +172,14 @@ function onKeyDown(event) {
     }
 }
 
-function onFrame(event) {
-    for (var i = 0; i < circles.length; i++) {
-        circles[i].scale(0.9);
-        circles[i].fillColor.hue += 1;
+function onFrame(event){
+    for(var i = 0; i < circles.length; i++){
+      circles[i].scale(0.9);
+      circles[i].fillColor.hue += 1;
+      if(circles[i].area < 1){
+        circles[i].remove(); // remove the circle from the canvas
+        circles.splice(i, 1); // remove the circle from the array
+        console.log(circles);
+      }
     }
-}
+  }
