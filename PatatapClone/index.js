@@ -15,5 +15,4 @@ function onFrame(event) {
         circles[i].scale(0.9);
         circles[i].fillColor.hue += 1;
     }
-    
 }
