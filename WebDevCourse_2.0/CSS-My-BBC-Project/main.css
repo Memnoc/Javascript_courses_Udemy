@@ -7,6 +7,7 @@ body {
     overflow: hidden;
 }
 
+/* Stilying the separators */
 a {
     border-right:1px solid;
     padding-left: 5px;
@@ -22,12 +23,12 @@ li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 6px;
+    padding: 8px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #468bc1;
+    background-color: #468cc145;
 }
 
 /* drop down */
