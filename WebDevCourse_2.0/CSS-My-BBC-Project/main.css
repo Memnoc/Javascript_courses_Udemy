@@ -52,19 +52,15 @@ li.dropdown {
     text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
 
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Search bar */
-/* Add a black background color to the top navigation bar */
-/* .topnav {
-    overflow: hidden;
-    background-color: #e9e9e9;
-} */
-
+/* Navbar */
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
@@ -91,7 +87,8 @@ li.dropdown {
 /* Style the search box inside the navigation bar */
 .topnav input[type=text] {
     float: left;
-    background-color: #e9e9e9;
+    background-color: #0f53c9;
+    background: url(lens-small.png) no-repeat right center;
     padding: 6px;
     border: none;
     margin-right: 16px;
@@ -113,3 +110,21 @@ li.dropdown {
         border: 1px solid #ccc;
     }
 }
+
+/* drop-down arrow */
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    padding-left: 3px;
+    margin-left: 25px;
+  }
+  
+  .down {
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+  }
+
+  /* Magnifying lens */
