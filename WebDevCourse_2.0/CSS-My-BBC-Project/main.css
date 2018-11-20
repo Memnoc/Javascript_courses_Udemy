@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 #pre-header{
@@ -128,4 +129,71 @@ i {
       -webkit-transform: rotate(45deg);
   }
 
-  /* Magnifying lens */
+  /* Red header */
+
+  #red-header{
+    padding: 0px;
+    background: #ba2022;
+    margin: 0;
+  }
+
+  .news {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+    color: #f1f1f1;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 3rem;
+  }
+
+  .red-header-two{
+    overflow: hidden;
+    background: #ba2022;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Second links in the navbar */
+  /* Stilying the separators */
+a.second-home {
+    border-right:0px solid;
+}
+
+li.second-nav {
+    float: left;
+    list-style-type: none;
+}
+
+li.sec-nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li.sec-nav a:hover {
+    background-color: yellow;
+}
+
+ /* Third links in the navbar */
+   /* Stilying the separators */
+a.third-home {
+    border-right:0px solid;
+}
+
+li.third-nav {
+    float: left;
+    list-style-type: none;
+}
+
+li.third-nav a {
+    display: block;
+    color: rgb(4, 0, 0);
+    text-align: center;
+    text-decoration: none;
+}
+
+li.third-nav a:hover {
+    background-color: yellow;
+}
