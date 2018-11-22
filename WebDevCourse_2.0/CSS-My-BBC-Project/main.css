@@ -176,24 +176,35 @@ li.sec-nav a:hover {
     background-color: yellow;
 }
 
- /* Third links in the navbar */
-   /* Stilying the separators */
-a.third-home {
-    border-right:0px solid;
-}
+ .tec {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin: 0%;
+    color: #404040;
+    padding-left: 3rem;
+    text-decoration: underline red;
+ }
 
-li.third-nav {
+
+ .title {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin: 0%;
+    color: #404040;
+    padding-left: 3rem;
+    font-weight: bolder;
+
+ }
+
+.art-img {
     float: left;
-    list-style-type: none;
+    margin-left: 50px;
 }
 
-li.third-nav a {
-    display: block;
-    color: rgb(4, 0, 0);
-    text-align: center;
-    text-decoration: none;
-}
-
-li.third-nav a:hover {
-    background-color: yellow;
+.buzzard-summary {
+    text-align: justify;
+    overflow: hidden;
+    padding-left: 6px;
 }
